@@ -1,0 +1,13 @@
+torch>=2.0
+numpy
+scipy
+pandas
+scikit-learn
+pyyaml
+matplotlib
+tqdm
+wfdb
+neurokit2
+scikit-plot
+shap
+captum
