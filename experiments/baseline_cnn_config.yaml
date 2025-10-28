@@ -1,0 +1,11 @@
+# baseline_cnn_config.yaml
+train_list: data/splits/train_files.txt
+val_list: data/splits/val_files.txt
+ecq_leads: 12
+clin_dim: 20
+batch_size: 32
+lr: 1e-4
+epochs: 30
+pos_weight: 5.0
+out_checkpoint: runs/exp1/best.pt
+log_dir: runs/exp1
